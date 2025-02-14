@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4855FBC-83BE-406F-A530-C9ED0AEFC97A}|CudaRayTracing\\CudaRayTracing.vcxproj|C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\sphere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C4855FBC-83BE-406F-A530-C9ED0AEFC97A}|CudaRayTracing\\CudaRayTracing.vcxproj|solutionrelative:CudaRayTracing\\sphere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4855FBC-83BE-406F-A530-C9ED0AEFC97A}|CudaRayTracing\\CudaRayTracing.vcxproj|C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\main.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C4855FBC-83BE-406F-A530-C9ED0AEFC97A}|CudaRayTracing\\CudaRayTracing.vcxproj|solutionrelative:CudaRayTracing\\main.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4855FBC-83BE-406F-A530-C9ED0AEFC97A}|CudaRayTracing\\CudaRayTracing.vcxproj|C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C4855FBC-83BE-406F-A530-C9ED0AEFC97A}|CudaRayTracing\\CudaRayTracing.vcxproj|solutionrelative:CudaRayTracing\\triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4855FBC-83BE-406F-A530-C9ED0AEFC97A}|CudaRayTracing\\CudaRayTracing.vcxproj|C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\vec3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C4855FBC-83BE-406F-A530-C9ED0AEFC97A}|CudaRayTracing\\CudaRayTracing.vcxproj|solutionrelative:CudaRayTracing\\vec3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4855FBC-83BE-406F-A530-C9ED0AEFC97A}|CudaRayTracing\\CudaRayTracing.vcxproj|C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C4855FBC-83BE-406F-A530-C9ED0AEFC97A}|CudaRayTracing\\CudaRayTracing.vcxproj|solutionrelative:CudaRayTracing\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4855FBC-83BE-406F-A530-C9ED0AEFC97A}|CudaRayTracing\\CudaRayTracing.vcxproj|C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C4855FBC-83BE-406F-A530-C9ED0AEFC97A}|CudaRayTracing\\CudaRayTracing.vcxproj|solutionrelative:CudaRayTracing\\material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4855FBC-83BE-406F-A530-C9ED0AEFC97A}|CudaRayTracing\\CudaRayTracing.vcxproj|C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\ray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C4855FBC-83BE-406F-A530-C9ED0AEFC97A}|CudaRayTracing\\CudaRayTracing.vcxproj|solutionrelative:CudaRayTracing\\ray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sphere.h",
+              "DocumentMoniker": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\sphere.h",
+              "RelativeDocumentMoniker": "CudaRayTracing\\sphere.h",
+              "ToolTip": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\sphere.h",
+              "RelativeToolTip": "CudaRayTracing\\sphere.h",
+              "ViewState": "AQIAAPAAAAAAAAAAAAAYwPwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-24T04:40:48.155Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "vec3.h",
+              "DocumentMoniker": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\vec3.h",
+              "RelativeDocumentMoniker": "CudaRayTracing\\vec3.h",
+              "ToolTip": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\vec3.h",
+              "RelativeToolTip": "CudaRayTracing\\vec3.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-31T04:29:38.531Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "triangle.h",
+              "DocumentMoniker": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\triangle.h",
+              "RelativeDocumentMoniker": "CudaRayTracing\\triangle.h",
+              "ToolTip": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\triangle.h",
+              "RelativeToolTip": "CudaRayTracing\\triangle.h",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAIwBsBAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-07T03:55:59.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "material.h",
+              "DocumentMoniker": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\material.h",
+              "RelativeDocumentMoniker": "CudaRayTracing\\material.h",
+              "ToolTip": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\material.h",
+              "RelativeToolTip": "CudaRayTracing\\material.h",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAJEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-24T04:55:17.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "camera.h",
+              "DocumentMoniker": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\camera.h",
+              "RelativeDocumentMoniker": "CudaRayTracing\\camera.h",
+              "ToolTip": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\camera.h",
+              "RelativeToolTip": "CudaRayTracing\\camera.h",
+              "ViewState": "AQIAAB8AAAAAAAAAAADgvzUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-24T04:52:00.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ray.h",
+              "DocumentMoniker": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\ray.h",
+              "RelativeDocumentMoniker": "CudaRayTracing\\ray.h",
+              "ToolTip": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\ray.h",
+              "RelativeToolTip": "CudaRayTracing\\ray.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-24T04:33:21.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cu",
+              "DocumentMoniker": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\main.cu",
+              "RelativeDocumentMoniker": "CudaRayTracing\\main.cu",
+              "ToolTip": "C:\\Users\\ddctl\\Documents\\GitHub\\DT366-lowlevel\\CudaRayTracing\\CudaRayTracing\\main.cu",
+              "RelativeToolTip": "CudaRayTracing\\main.cu",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAswKYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-24T04:14:42.614Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

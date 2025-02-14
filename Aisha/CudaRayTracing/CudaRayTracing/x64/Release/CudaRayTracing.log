@@ -1,0 +1,466 @@
+﻿  Compiling CUDA source file main.cu...
+  
+  C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin\nvcc.exe" -gencode=arch=compute_70,code=\"sm_70,compute_70\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64" -x cu   -I"C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include"     --keep-dir x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc143.pdb" -o C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\x64\Release\main.cu.obj "C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\main.cu" 
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec2.hpp(94): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec2.hpp(94): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec2.hpp(95): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec2.hpp(95): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec2.hpp(143): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<2, T, Q> & operator=(vec const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec2.hpp(143): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<2, T, Q> & operator=(vec const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec3.hpp(98): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec3.hpp(98): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec3.hpp(99): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec3.hpp(99): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec3.hpp(176): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<3, T, Q>& operator=(vec<3, T, Q> const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec3.hpp(176): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<3, T, Q>& operator=(vec<3, T, Q> const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec4.hpp(96): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec4.hpp(96): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec4.hpp(97): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec<4, T, Q> const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec4.hpp(97): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec<4, T, Q> const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec4.hpp(248): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<4, T, Q>& operator=(vec<4, T, Q> const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec4.hpp(248): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<4, T, Q>& operator=(vec<4, T, Q> const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat2x2.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat2x2.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat2x3.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat2x3.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat2x4.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat2x4.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat3x2.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat3x2.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat3x3.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat3x3.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat3x4.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat3x4.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat4x2.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat4x2.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat4x3.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat4x3.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat4x4.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat4x4.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\detail/type_vec1.hpp(95): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\detail/type_vec1.hpp(95): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\detail/type_vec1.hpp(96): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\detail/type_vec1.hpp(96): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\detail/type_vec1.hpp(132): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<1, T, Q> & operator=(vec const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\detail/type_vec1.hpp(132): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<1, T, Q> & operator=(vec const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(195): warning #461-D: initial value of reference to non-const must be an lvalue
+                vec3(0.8, 0.1, 0.1), idx, 2);                         
+                ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(204): warning #461-D: initial value of reference to non-const must be an lvalue
+                vec3(0.8, 0.1, 0.1), idx, 2);                                
+                ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(212): warning #461-D: initial value of reference to non-const must be an lvalue
+                vec3(0.1, 0.1, 0.1), idx);                         
+                ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(220): warning #461-D: initial value of reference to non-const must be an lvalue
+                vec3(0.1, 0.1, 0.1), idx);
+                ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(346): warning #461-D: initial value of reference to non-const must be an lvalue
+                vec3(1.7f, 1.7f, 1.7f), idx, 5);
+                ^
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes/stb_image.h(3930): warning #550-D: variable "old_limit" was set but never used
+        int cur, limit, old_limit;
+                        ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes/stb_image.h(4817): warning #550-D: variable "idata_limit_old" was set but never used
+                    stbi__uint32 idata_limit_old = idata_limit;
+                                 ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec2.hpp(94): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec2.hpp(94): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec2.hpp(95): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec2.hpp(95): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec2.hpp(143): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<2, T, Q> & operator=(vec const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec2.hpp(143): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<2, T, Q> & operator=(vec const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec3.hpp(98): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec3.hpp(98): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec3.hpp(99): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec3.hpp(99): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec3.hpp(176): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<3, T, Q>& operator=(vec<3, T, Q> const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec3.hpp(176): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<3, T, Q>& operator=(vec<3, T, Q> const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec4.hpp(96): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec4.hpp(96): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec4.hpp(97): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec<4, T, Q> const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec4.hpp(97): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec<4, T, Q> const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec4.hpp(248): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<4, T, Q>& operator=(vec<4, T, Q> const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_vec4.hpp(248): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<4, T, Q>& operator=(vec<4, T, Q> const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat2x2.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat2x2.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat2x3.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat2x3.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat2x4.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat2x4.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat3x2.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat3x2.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat3x3.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat3x3.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat3x4.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat3x4.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat4x2.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat4x2.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat4x3.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat4x3.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat4x4.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\ext\../detail/type_mat4x4.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\detail/type_vec1.hpp(95): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\detail/type_vec1.hpp(95): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\detail/type_vec1.hpp(96): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\detail/type_vec1.hpp(96): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\detail/type_vec1.hpp(132): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<1, T, Q> & operator=(vec const& v) = default;
+    		           ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\includes\glm\detail/type_vec1.hpp(132): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<1, T, Q> & operator=(vec const& v) = default;
+    		                                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\sphere.h(128): warning #177-D: variable "roomMin" was declared but never referenced
+            float roomMin = -29.0f;
+                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\sphere.h(129): warning #177-D: variable "roomMax" was declared but never referenced
+            float roomMax = 29.0f;
+                  ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\sphere.h(487): warning #177-D: variable "orbColor" was declared but never referenced
+                vec3 orbColor = albedo[i]; 
+                     ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(195): warning #461-D: initial value of reference to non-const must be an lvalue
+                vec3(0.8, 0.1, 0.1), idx, 2);                         
+                ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(204): warning #461-D: initial value of reference to non-const must be an lvalue
+                vec3(0.8, 0.1, 0.1), idx, 2);                                
+                ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(212): warning #461-D: initial value of reference to non-const must be an lvalue
+                vec3(0.1, 0.1, 0.1), idx);                         
+                ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(220): warning #461-D: initial value of reference to non-const must be an lvalue
+                vec3(0.1, 0.1, 0.1), idx);
+                ^
+  
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(346): warning #461-D: initial value of reference to non-const must be an lvalue
+                vec3(1.7f, 1.7f, 1.7f), idx, 5);
+                ^
+  
+  main.cu
+  tmpxft_00006510_00000000-7_main.cudafe1.cpp
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\vec3.h(67): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\vec3.h(148): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\vec3.h(161): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\sphere.h(289): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\sphere.h(297): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\sphere.h(122): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\sphere.h(189): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\sphere.h(218): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(366): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(21): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(87): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(146): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(157): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(165): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(190): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(190): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(190): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(199): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(199): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(199): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(199): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(199): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(199): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(199): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(207): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(207): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(207): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(215): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(215): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(215): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(215): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(215): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(215): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(215): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(390): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\triangle.h(391): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\main.cu(90): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\CudaRayTracing\main.cu(900): warning C4996: 'cudaMemcpyToArray': was declared deprecated
+     Creating library C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\x64\Release\CudaRayTracing.lib and object C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\x64\Release\CudaRayTracing.exp
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+glfw3.lib(init.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(init.obj)' or at ''; linking object as if no debug info
+glfw3.lib(window.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(window.obj)' or at ''; linking object as if no debug info
+glfw3.lib(input.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(input.obj)' or at ''; linking object as if no debug info
+glfw3.lib(context.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(context.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_window.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_window.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_init.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_init.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_monitor.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_time.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_time.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_thread.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_thread.obj)' or at ''; linking object as if no debug info
+glfw3.lib(monitor.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(monitor.obj)' or at ''; linking object as if no debug info
+glfw3.lib(vulkan.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(vulkan.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_joystick.obj)' or at ''; linking object as if no debug info
+glfw3.lib(wgl_context.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(wgl_context.obj)' or at ''; linking object as if no debug info
+glfw3.lib(egl_context.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(egl_context.obj)' or at ''; linking object as if no debug info
+glfw3.lib(osmesa_context.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(osmesa_context.obj)' or at ''; linking object as if no debug info
+  CudaRayTracing.vcxproj -> C:\Users\user\Documents\GitHub\DT366-lowlevel\CudaRayTracing\x64\Release\CudaRayTracing.exe
