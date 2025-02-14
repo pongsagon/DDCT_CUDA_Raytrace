@@ -1,0 +1,364 @@
+﻿  Compiling CUDA source file main.cu...
+  
+  D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\x64\Debug\main.cu.obj "D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\main.cu" 
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec2.hpp(94): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec2.hpp(94): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec2.hpp(95): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec2.hpp(95): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec2.hpp(143): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<2, T, Q> & operator=(vec const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec2.hpp(143): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<2, T, Q> & operator=(vec const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec3.hpp(98): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec3.hpp(98): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec3.hpp(99): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec3.hpp(99): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec3.hpp(176): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<3, T, Q>& operator=(vec<3, T, Q> const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec3.hpp(176): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<3, T, Q>& operator=(vec<3, T, Q> const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec4.hpp(96): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec4.hpp(96): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec4.hpp(97): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec<4, T, Q> const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec4.hpp(97): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec<4, T, Q> const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec4.hpp(248): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<4, T, Q>& operator=(vec<4, T, Q> const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec4.hpp(248): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<4, T, Q>& operator=(vec<4, T, Q> const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat2x2.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat2x2.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat2x3.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat2x3.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat2x4.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat2x4.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat3x2.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat3x2.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat3x3.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat3x3.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat3x4.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat3x4.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat4x2.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat4x2.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat4x3.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat4x3.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat4x4.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat4x4.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\detail/type_vec1.hpp(95): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\detail/type_vec1.hpp(95): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\detail/type_vec1.hpp(96): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\detail/type_vec1.hpp(96): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\detail/type_vec1.hpp(132): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<1, T, Q> & operator=(vec const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\detail/type_vec1.hpp(132): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<1, T, Q> & operator=(vec const& v) = default;
+    		                                  ^
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes/stb_image.h(3930): warning #550-D: variable "old_limit" was set but never used
+        int cur, limit, old_limit;
+                        ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes/stb_image.h(4817): warning #550-D: variable "idata_limit_old" was set but never used
+                    stbi__uint32 idata_limit_old = idata_limit;
+                                 ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec2.hpp(94): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec2.hpp(94): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec2.hpp(95): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec2.hpp(95): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec2.hpp(143): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<2, T, Q> & operator=(vec const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec2.hpp(143): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<2, T, Q> & operator=(vec const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec3.hpp(98): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec3.hpp(98): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec3.hpp(99): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec3.hpp(99): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec3.hpp(176): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<3, T, Q>& operator=(vec<3, T, Q> const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec3.hpp(176): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<3, T, Q>& operator=(vec<3, T, Q> const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec4.hpp(96): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec4.hpp(96): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec4.hpp(97): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec<4, T, Q> const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec4.hpp(97): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec<4, T, Q> const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec4.hpp(248): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<4, T, Q>& operator=(vec<4, T, Q> const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_vec4.hpp(248): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<4, T, Q>& operator=(vec<4, T, Q> const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat2x2.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat2x2.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat2x3.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat2x3.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat2x4.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat2x4.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat3x2.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat3x2.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat3x3.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat3x3.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat3x4.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat3x4.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat4x2.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat4x2.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat4x3.hpp(36): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat4x3.hpp(36): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat4x4.hpp(35): warning #20012-D: __device__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\ext\../detail/type_mat4x4.hpp(35): warning #20012-D: __host__ annotation is ignored on a function("mat") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  mat() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\detail/type_vec1.hpp(95): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\detail/type_vec1.hpp(95): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec() = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\detail/type_vec1.hpp(96): warning #20012-D: __device__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\detail/type_vec1.hpp(96): warning #20012-D: __host__ annotation is ignored on a function("vec") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec(vec const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\detail/type_vec1.hpp(132): warning #20012-D: __device__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<1, T, Q> & operator=(vec const& v) = default;
+    		           ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\includes\glm\detail/type_vec1.hpp(132): warning #20012-D: __host__ annotation is ignored on a function("operator=") that is explicitly defaulted on its first declaration
+    		__declspec(__device__) __declspec(__host__)  vec<1, T, Q> & operator=(vec const& v) = default;
+    		                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\main.cu(461): error : __grid_constant__ annotation is only allowed for architecture compute_70 or later
+    __declspec(__global__) void render(unsigned int* fb, int max_x, int max_y, int ns, __declspec(__grid_constant__) const camera cam,
+                                                                                                  ^
+  
+D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\main.cu(462): error : __grid_constant__ annotation is only allowed for architecture compute_70 or later
+                            __declspec(__grid_constant__) const spheres world, curandState* rand_state) {
+                                       ^
+  
+  2 errors detected in the compilation of "D:/Capt/DT366LowLevel/Lab/DT-366/Week11.5-RayTracingGame/main.cu".
+  main.cu
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.4.targets(799,9): error MSB3721: The command ""C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\x64\Debug\main.cu.obj "D:\Capt\DT366LowLevel\Lab\DT-366\Week11.5-RayTracingGame\main.cu"" exited with code 1.
